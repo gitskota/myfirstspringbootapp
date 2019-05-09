@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b71e693-04a9-420d-8992-6b61661c44a8" name="Default Changelist" comment="" />
+    <list default="true" id="9b71e693-04a9-420d-8992-6b61661c44a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-first-spring-boot-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-properties.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/tests/BaseAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/tests/BaseAbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/home/tests/BaseAbstractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/home/tests/BaseAbstractTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -39,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/BaseAbstractTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#720#721#0" expanded="true" />
@@ -55,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,10 +80,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/model/Employee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/controllers/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
@@ -86,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/home/springboot/SpringBootHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/BaseAbstractTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -102,6 +112,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,6 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -195,7 +207,7 @@
   <component name="RunManager" selected="TestNG.ReadPropertiesFile">
     <configuration name="SpringBootHelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.home.springboot.SpringBootHelloWorld" />
-      <module name="my-first-spring-boot-app" />
+      <module name="spring-boot-properties" />
       <option name="VM_PARAMETERS" value="-Dserver.port=8090" />
       <extension name="coverage">
         <pattern>
@@ -207,8 +219,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="spring-boot-properties" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="spring-boot-properties" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadPropertiesFile" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="my-first-spring-boot-app" />
+      <module name="spring-boot-properties" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.home.tests.*" />
@@ -225,7 +284,7 @@
       </method>
     </configuration>
     <configuration name="SpringBootHelloWorldTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="my-first-spring-boot-app" />
+      <module name="spring-boot-properties" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.home.tests.*" />
@@ -268,18 +327,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadPropertiesFile - 2019.05.08 at 19h 31m 01s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.08 at 19h 35m 07s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.08 at 19h 39m 29s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.08 at 19h 40m 37s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReadPropertiesFile - 2019.05.08 at 19h 48m 05s.xml">
       <configuration name="ReadPropertiesFile" configurationId="TestNG" />
     </history-entry>
@@ -298,12 +345,23 @@
     <history-entry file="ReadPropertiesFile - 2019.05.08 at 20h 33m 08s.xml">
       <configuration name="ReadPropertiesFile" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.08 at 21h 13m 43s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.08 at 21h 24m 05s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.08 at 21h 24m 47s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.08 at 21h 28m 24s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4426581" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4426581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,13 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -396,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/BaseAbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
@@ -408,10 +459,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

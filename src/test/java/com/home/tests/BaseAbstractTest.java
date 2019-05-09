@@ -16,7 +16,7 @@ import javax.annotation.PostConstruct;
 
 //@Configuration // needed for main method
 
-@Configuration
+//@Configuration
 @ConfigurationProperties
 @PropertySource(value="classpath:application.properties")
 public class BaseAbstractTest extends AbstractTestNGSpringContextTests {
