@@ -1,20 +1,25 @@
 package com.home.tests;
 
-import com.home.springboot.SpringBootHelloWorld;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.home.props.Application;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.testng.annotations.Test;
 
-@SpringBootTest(classes = SpringBootHelloWorld.class)
-@EnableConfigurationProperties
-public class ReadPropertiesFile extends BaseAbstractTest {
+@SpringBootTest(classes = Application.class)
+@EnableConfigurationProperties(ConfigProperties.class)
+
+public class ReadPropertiesFile extends ConfigProperties {
+
+    ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ConfigProperties.class);
+    ConfigProperties configProperties = applicationContext.getBean(ConfigProperties.class);
 
     @Test
     public void getURIFromPropertiesFile(){
 
-        String url = getUri();
-        System.out.println("URL from abstract class: "+ url);
+       // String url = getUri();
+        System.out.println("\nURL from abstract class: "+ configProperties.url);
     }
 
 }
