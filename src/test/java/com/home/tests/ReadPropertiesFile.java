@@ -18,7 +18,7 @@ public class ReadPropertiesFile extends ConfigProperties {
     @Test
     public void getURIFromPropertiesFile(){
 
-        System.out.println("\nURL from abstract class: "+ configProperties.url);
+        System.out.println("\nURI from application.properties file: "+ configProperties.url);
     }
 
 }
