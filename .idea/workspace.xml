@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b71e693-04a9-420d-8992-6b61661c44a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-qa.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/home/props/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/props/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/home/tests/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/tests/ConfigProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/home/props/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/home/props/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/home/tests/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/home/tests/ConfigProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/home/tests/ReadPropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/home/tests/ReadPropertiesFile.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,29 +33,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="312">
+              <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application-local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
+            <state>
+              <caret column="76" selection-start-column="76" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+            <state relative-caret-position="88">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application-qa.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -58,11 +72,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ConfigProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="393">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -93,6 +116,7 @@
       <find>hibet</find>
       <find>f</find>
       <find>app.</find>
+      <find>resources</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,16 +134,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/BaseAbstractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/props/SpringBootHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/AbstractBaseTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/Properties.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/PropertiesBean.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesBeanFile.java" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/props/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/home/props/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/ConfigProperties.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/application-qa.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/application-local.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -164,40 +190,6 @@
               <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-properties" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-properties" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-properties" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="props" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-properties" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,15 +203,7 @@
               <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-properties" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,9 +308,18 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.home.tests" />
       <option name="MAIN_CLASS_NAME" value="com.home.tests.ReadPropertiesFile" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -396,24 +389,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 10m 03s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 10m 56s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 12m 27s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 13m 07s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 20m 28s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 21m 48s.xml">
-      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReadPropertiesFile - 2019.05.12 at 20h 23m 25s.xml">
       <configuration name="ReadPropertiesFile" configurationId="TestNG" />
     </history-entry>
@@ -426,12 +401,30 @@
     <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 01m 47s.xml">
       <configuration name="ReadPropertiesFile" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 07m 31s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 07m 59s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 08m 46s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 50m 26s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 55m 27s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadPropertiesFile - 2019.05.12 at 22h 56m 44s.xml">
+      <configuration name="ReadPropertiesFile" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25928918" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25928918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,15 +433,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4150685" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74878836" visible="true" weight="0.4150685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25121164" side_tool="true" weight="0.4150685" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3260274" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919224" weight="0.3260274" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -469,13 +462,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/PropertiesBean.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/home/props/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -486,30 +472,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ReadPropertiesFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+        <state relative-caret-position="88">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application-qa.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="76" selection-start-column="76" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/home/tests/ConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>

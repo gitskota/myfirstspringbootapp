@@ -16,6 +16,10 @@
         <chromedriver.windows.version>3.14.0</chromedriver.windows.version>
     </properties>
 
+
+
+
+
     <dependencies>
 
         <dependency>
@@ -125,9 +129,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <profiles>
+                        <profile>local</profile>
+                        <profile>qa</profile>
+                    </profiles>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 
 
 </project>
