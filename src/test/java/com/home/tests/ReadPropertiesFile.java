@@ -16,10 +16,17 @@ public class ReadPropertiesFile extends ConfigProperties {
     @Test
     public void getPropertiesFromPropertiesFile(){
 
-        System.out.println("localuri from application.properties file: "+ url);
+        System.out.println("\nlocaluri from application.properties file: "+ url);
         System.out.println("\nserverport from application.properties file: "+ serverPort);
         System.out.println("\napp.code1 from application.properties file: "+ code1);
         System.out.println("\napp.login from application.properties file: "+ login);
+
+
+        System.out.println("\nlocal.prop1 from application-local.properties file: "+ localProp1);
+        System.out.println("\nlocal.prop2 from application-local.properties file: "+ localProp2);
+
+        System.out.println("\nqa.prop1 from application-qa.properties file: "+ qaProp1);
+        System.out.println("\nqa.prop2 from application-qa.properties file: "+ qaProp2);
 
     }
 

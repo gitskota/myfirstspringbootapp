@@ -35,4 +35,15 @@ public class ConfigProperties extends AbstractTestNGSpringContextTests {
     @Value("${app.login}")
     protected String login;
 
+    @Value("${local.prop1}")
+    protected String localProp1;
+
+    @Value("${local.prop2}")
+    protected String localProp2;
+
+    @Value("${qa.prop1}")
+    protected String qaProp1;
+
+    @Value("${qa.prop2}")
+    protected String qaProp2;
 }
