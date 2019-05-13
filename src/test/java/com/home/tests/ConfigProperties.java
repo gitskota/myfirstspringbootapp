@@ -23,19 +23,16 @@ public class ConfigProperties extends AbstractTestNGSpringContextTests {
 
     }
 
-    @Value("${app.uri}")
+    @Value("${localuri}")
     protected String url;
 
-    @Value("${server.port}")
+    @Value("${serverport}")
     protected String serverPort;
 
-//
-//    public String getUri() {
-//        return url;
-//    }
-//
-//    public String getServerPort(){
-//        return serverPort;
-//    }
+    @Value("${app.code1}")
+    protected String code1;
+
+    @Value("${app.login}")
+    protected String login;
 
 }
